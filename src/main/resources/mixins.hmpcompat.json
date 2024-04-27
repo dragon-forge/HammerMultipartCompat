@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"minVersion": "0.8.5",
+	"package": "org.zeith.hmpcompat.mixins",
+	"refmap": "mixins.modid.refmap.json",
+	"target": "@env(DEFAULT)",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"prettypipes.PipeBlockAccessor",
+		"prettypipes.PipeBlockEntityMixin",
+		"prettypipes.PipeBlockMixin",
+		"prettypipes.PipeNetworkMixin",
+		"prettypipes.UtilityMixin"
+	],
+	"client": [
+	],
+	"server": [
+	]
+}
